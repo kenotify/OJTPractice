@@ -1,0 +1,10 @@
+.home-container {
+    background-color: #92ea26;
+}
+
+.scldura-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: hsl(255, 96%, 18%);  
+    border-color: rgba(255, 82, 82, 0.868);
+}
+ 
