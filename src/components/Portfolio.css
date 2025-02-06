@@ -1,0 +1,83 @@
+.portfolio-container {
+    display: flex;
+    background-color: #92ea26;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.portfolio-button{
+    background-color: #0f0d22;
+    color: rgb(7, 160, 122);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: row;
+    font-size: large;
+}
+
+.portfolio-title{
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    color: rgb(7, 160, 122);
+    text-shadow: -1px -1px 0 #11c0d776, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    align-items: start;
+    width: 40%;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;    
+}
+
+
+.button-container button:nth-child(2) {
+    background-color: #101314;
+    color: rgb(7, 160, 122);
+}
+
+.paragraph{
+    color:rgb(207, 221, 224);
+}
+
+.scldura{
+    font-size: 70px;
+}
+
+.stats-container{
+    justify-content: center;
+}
+
+.numbers{    
+    color: rgb(7, 160, 122);
+    text-shadow: -1px -1px 0 #11c0d776, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+.word{
+    color: rgb(195, 203, 201);
+    text-shadow: -1px -1px 0 #11c0d776, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.border-bottom{
+    width: 40%;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #000;
+}
+
+.icon-item{
+  font-size: 100px;
+}

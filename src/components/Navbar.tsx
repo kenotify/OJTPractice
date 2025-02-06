@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState<string>('');
@@ -7,11 +8,13 @@ function Navbar() {
   const handleNavLinkClick = (link: string) => {
     setActiveLink(link);
   };
-
+  useEffect(() => {
+    document.body.style.backgroundColor = '#92ea26';
+  }, []);
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Navbar</a>
+        <a className="navbar-brand" href="#">SCL</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

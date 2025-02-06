@@ -18,6 +18,13 @@ const App = () => {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
+        <style>
+          {`
+            body {
+              overflow: hidden;
+            }
+          `}
+        </style>
         <Footer />
     </Router>
   );

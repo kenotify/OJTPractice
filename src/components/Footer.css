@@ -2,8 +2,9 @@
     display: flex;
     position: fixed;
     bottom: 0;
-    width: 45%;
-    background: linear-gradient(45deg, #0ECE6E, #0A9D58);
+    width: 35%;
+    height: 35px;
+    background: #160d7a;
     text-align: start;
     padding: 10px 0;
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
@@ -14,8 +15,8 @@
 }
 
 .footer-content {
-    margin: 7px;
-    max-width: 1200px;  
+    margin: 10px;
+    max-width: 100%;  
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,9 +29,9 @@
     margin: 0px;
     margin-left: 10px;
     text-align: start;
-    font-size: 12px;
-    padding:2px;
+    font-size: 10px;
     text-decoration: underline;
+    color: #92ea26;
 }
 
 .footer-content p:nth-child(2)::after {

@@ -1,17 +1,23 @@
 .navbar {
-    background-color: #0ECE6E;
+    display: flex;
+    background-color: #160d7a;
     padding: 1rem;
-}
+    position:sticky;    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width:100%;    
+    justify-self: center;
+    }
 
 .navbar-brand {
-    color: #fff;
+    color: #92ea26;
     font-size: 1.5rem;
     text-decoration: none;
 }
 
 .navbar-toggler {
     border: none;
-    background-color: #fff;
+    background-color: #e5e5e5;
 }
 
 .navbar-toggler-icon {
@@ -69,4 +75,8 @@
 .btn-outline-success:hover {
     background-color: #28a745;
     color: #fff;
+}
+
+.nav-item > .nav-link {
+    color: #92ea26;
 }
